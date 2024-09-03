@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import '../app_data.dart';
+import '../Widgets/category_item.dart';
 
 class categoriesScreen extends StatelessWidget {
   const categoriesScreen({super.key});
@@ -7,15 +9,19 @@ class categoriesScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
+        backgroundColor: Colors.blue,
         centerTitle: true,
         title: Text("Traviling App"),
       ),
       body: GridView(
-        gridDelegate: SliverGridDelegateWithMaxCrossAxisExtent(
-            maxCrossAxisExtent: 200,
+        padding: const EdgeInsets.all(10),
+        gridDelegate: const SliverGridDelegateWithMaxCrossAxisExtent(
+            maxCrossAxisExtent: 400,
             childAspectRatio: 7 / 8,
             crossAxisSpacing: 10,
             mainAxisSpacing: 10),
+        children: Categories_data.map((categoryData) =>
+            categoryItem(categoryData.title, categoryData.imageUrl)).toList(),
       ),
     );
   }
