@@ -9,7 +9,11 @@ class categoriesTripScreen extends StatelessWidget {
       appBar: AppBar(
         title: Text("Trips Page"),
       ),
-      body: Center(child: Text("This summer's itinerary list")),
+      body: Center(
+          child: Text(
+        "This summer's itinerary list",
+        style: TextStyle(fontSize: 24),
+      )),
     );
   }
 }
