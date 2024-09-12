@@ -1,4 +1,3 @@
-import 'package:flutter/material.dart';
 import 'package:flutter_application_1/Models/trip.dart';
 import './models/category.dart';
 
@@ -42,7 +41,7 @@ final Categories_data = [
 ];
 
 //////////////////////////////////////////////////////
-const Trips_data = const [
+const Trips_data = [
   Trip(
     id: 'm1',
     categories: [
@@ -133,7 +132,6 @@ const Trips_data = const [
     id: 'm4',
     categories: [
       'c2',
-      'c1',
     ],
     title: 'Great Lake',
     tripType: TripType.Activities,
@@ -162,7 +160,6 @@ const Trips_data = const [
     id: 'm5',
     categories: [
       'c2',
-      'c1',
     ],
     title: 'Small Lakes',
     tripType: TripType.Activities,
@@ -303,7 +300,6 @@ const Trips_data = const [
     id: 'm10',
     categories: [
       'c4',
-      'c1',
     ],
     title: 'Forests of Canada',
     tripType: TripType.Activities,
@@ -327,5 +323,201 @@ const Trips_data = const [
     isInSummer: true,
     isForFamilies: true,
     isInWinter: false,
+  ),
+  Trip(
+    id: 'm11',
+    categories: [
+      'c4',
+    ],
+    title: 'Western Desert',
+    tripType: TripType.Activities,
+    season: Season.Winter,
+    imageUrl:
+        'https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTB8fHRyYXZlbHxlbnwwfHwwfA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=60',
+    duration: 30,
+    activities: [
+      'Visiting archaeological sites',
+      'Walking tour',
+      'Shopping at malls',
+      'Having lunch',
+      'Enjoying beautiful scenery'
+    ],
+    program: [
+      'Aliquet, sit do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+      'Skiing Aliquet sit do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+      'Lorem ipsum dolor et dolore magna aliqua.',
+      'Lorem do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+    ],
+    isInSummer: true,
+    isForFamilies: true,
+    isInWinter: true,
+  ),
+  Trip(
+    id: 'm12',
+    categories: [
+      'c4',
+    ],
+    title: 'Sandy Desert',
+    tripType: TripType.Activities,
+    season: Season.Winter,
+    imageUrl:
+        'https://images.unsplash.com/photo-1452022582947-b521d8779ab6?ixid=MXwxMjA3fDB8MHxzZWFyY2h8ODN8fGRlc2VydHxlbnwwfHwwfA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=60',
+    duration: 30,
+    activities: [
+      'Visiting archaeological sites',
+      'Walking tour',
+      'Shopping at malls',
+      'Having lunch',
+      'Enjoying beautiful scenery'
+    ],
+    program: [
+      'Aliquet, sit do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+      'Skiing Aliquet sit do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+      'Lorem ipsum dolor et dolore magna aliqua.',
+      'Lorem do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+    ],
+    isInSummer: true,
+    isForFamilies: true,
+    isInWinter: true,
+  ),
+  Trip(
+    id: 'm13',
+    categories: [
+      'c5',
+    ],
+    title: 'First City',
+    tripType: TripType.Activities,
+    season: Season.Winter,
+    imageUrl:
+        'https://images.unsplash.com/photo-1498307833015-e7b400441eb8?ixid=MXwxMjA3fDB8MHxzZWFyY2h8NDJ8fHRyYXZlbHxlbnwwfHwwfA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=60',
+    duration: 30,
+    activities: [
+      'Visiting archaeological sites',
+      'Walking tour',
+      'Shopping at malls',
+      'Having lunch',
+      'Enjoying beautiful scenery'
+    ],
+    program: [
+      'Aliquet, sit do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+      'Skiing Aliquet sit do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+      'Lorem ipsum dolor et dolore magna aliqua.',
+      'Lorem do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+    ],
+    isInSummer: true,
+    isForFamilies: true,
+    isInWinter: true,
+  ),
+  Trip(
+    id: 'm14',
+    categories: [
+      'c5',
+    ],
+    title: 'Second City',
+    tripType: TripType.Activities,
+    season: Season.Winter,
+    imageUrl:
+        'https://images.unsplash.com/photo-1467269204594-9661b134dd2b?ixid=MXwxMjA3fDB8MHxzZWFyY2h8NjR8fHRyYXZlbHxlbnwwfHwwfA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=60',
+    duration: 30,
+    activities: [
+      'Visiting archaeological sites',
+      'Walking tour',
+      'Shopping at malls',
+      'Having lunch',
+      'Enjoying beautiful scenery'
+    ],
+    program: [
+      'Aliquet, sit do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+      'Skiing Aliquet sit do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+      'Lorem ipsum dolor et dolore magna aliqua.',
+      'Lorem do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+    ],
+    isInSummer: true,
+    isForFamilies: true,
+    isInWinter: true,
+  ),
+  Trip(
+    id: 'm15',
+    categories: [
+      'c5',
+    ],
+    title: 'Old City',
+    tripType: TripType.Activities,
+    season: Season.Winter,
+    imageUrl:
+        'https://images.unsplash.com/photo-1519923041107-e4dc8d9193da?ixid=MXwxMjA3fDB8MHxzZWFyY2h8Njd8fG9sZCUyMGNpdHl8ZW58MHx8MHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=60',
+    duration: 30,
+    activities: [
+      'Visiting archaeological sites',
+      'Walking tour',
+      'Shopping at malls',
+      'Having lunch',
+      'Enjoying beautiful scenery'
+    ],
+    program: [
+      'Aliquet, sit do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+      'Skiing Aliquet sit do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+      'Lorem ipsum dolor et dolore magna aliqua.',
+      'Lorem do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+    ],
+    isInSummer: true,
+    isForFamilies: true,
+    isInWinter: true,
+  ),
+  Trip(
+    id: 'm16',
+    categories: [
+      'c6',
+    ],
+    title: 'Skiing',
+    tripType: TripType.Activities,
+    season: Season.Winter,
+    imageUrl:
+        'https://images.unsplash.com/photo-1605540436563-5bca919ae766?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MXx8c2tpaW5nfGVufDB8fDB8&ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=60',
+    duration: 30,
+    activities: [
+      'Visiting archaeological sites',
+      'Walking tour',
+      'Shopping at malls',
+      'Having lunch',
+      'Enjoying beautiful scenery'
+    ],
+    program: [
+      'Aliquet, sit do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+      'Skiing Aliquet sit do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+      'Lorem ipsum dolor et dolore magna aliqua.',
+      'Lorem do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+    ],
+    isInSummer: true,
+    isForFamilies: true,
+    isInWinter: true,
+  ),
+  Trip(
+    id: 'm17',
+    categories: [
+      'c6',
+    ],
+    title: 'Parachuting',
+    tripType: TripType.Activities,
+    season: Season.Winter,
+    imageUrl:
+        'https://images.unsplash.com/photo-1601024445121-e5b82f020549?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTJ8fHBhcmFjaHV0ZSUyMGp1bXBpbmd8ZW58MHx8MHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=60',
+    duration: 30,
+    activities: [
+      'Visiting archaeological sites',
+      'Walking tour',
+      'Shopping at malls',
+      'Having lunch',
+      'Enjoying beautiful scenery'
+    ],
+    program: [
+      'Aliquet, sit do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+      'Skiing Aliquet sit do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+      'Lorem ipsum dolor et dolore magna aliqua.',
+      'Lorem do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+    ],
+    isInSummer: true,
+    isForFamilies: true,
+    isInWinter: true,
   ),
 ];
