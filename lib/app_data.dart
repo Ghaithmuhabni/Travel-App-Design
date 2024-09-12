@@ -110,7 +110,7 @@ const Trips_data = [
     season: Season.Winter,
     imageUrl:
         'https://images.unsplash.com/photo-1592221912790-2b4df8882ea9?ixid=MXwxMjA3fDB8MHxzZWFyY2h8Mzd8fG1vdW5hdGluc3xlbnwwfHwwfA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60',
-    duration: 45,
+    duration: 15,
     activities: [
       'Visiting archaeological sites',
       'Walking tour',
@@ -138,7 +138,7 @@ const Trips_data = [
     season: Season.Spring,
     imageUrl:
         'https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?ixid=MXwxMjA3fDB8MHxzZWFyY2h8OXx8bGFrZXxlbnwwfHwwfA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60',
-    duration: 60,
+    duration: 10,
     activities: [
       'Visiting archaeological sites',
       'Walking tour',
@@ -194,7 +194,7 @@ const Trips_data = [
     season: Season.Summer,
     imageUrl:
         'https://images.unsplash.com/photo-1501785888041-af3ef285b470?ixid=MXwxMjA3fDB8MHxzZWFyY2h8NHx8bGFrZXxlbnwwfHwwfA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=60',
-    duration: 240,
+    duration: 24,
     activities: [
       'Visiting archaeological sites',
       'Walking tour',
@@ -278,7 +278,7 @@ const Trips_data = [
     season: Season.Summer,
     imageUrl:
         'https://images.unsplash.com/photo-1507525428034-b723cf961d3e?ixid=MXwxMjA3fDB8MHxzZWFyY2h8NTl8fGJlYWNoJTIwcGFyYWRpc2V8ZW58MHx8MHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=60',
-    duration: 50,
+    duration: 15,
     activities: [
       'Visiting archaeological sites',
       'Walking tour',
@@ -334,7 +334,7 @@ const Trips_data = [
     season: Season.Winter,
     imageUrl:
         'https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTB8fHRyYXZlbHxlbnwwfHwwfA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=60',
-    duration: 30,
+    duration: 10,
     activities: [
       'Visiting archaeological sites',
       'Walking tour',
@@ -362,7 +362,7 @@ const Trips_data = [
     season: Season.Winter,
     imageUrl:
         'https://images.unsplash.com/photo-1452022582947-b521d8779ab6?ixid=MXwxMjA3fDB8MHxzZWFyY2h8ODN8fGRlc2VydHxlbnwwfHwwfA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=60',
-    duration: 30,
+    duration: 10,
     activities: [
       'Visiting archaeological sites',
       'Walking tour',
@@ -418,7 +418,7 @@ const Trips_data = [
     season: Season.Winter,
     imageUrl:
         'https://images.unsplash.com/photo-1467269204594-9661b134dd2b?ixid=MXwxMjA3fDB8MHxzZWFyY2h8NjR8fHRyYXZlbHxlbnwwfHwwfA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=60',
-    duration: 30,
+    duration: 15,
     activities: [
       'Visiting archaeological sites',
       'Walking tour',
@@ -446,7 +446,7 @@ const Trips_data = [
     season: Season.Winter,
     imageUrl:
         'https://images.unsplash.com/photo-1519923041107-e4dc8d9193da?ixid=MXwxMjA3fDB8MHxzZWFyY2h8Njd8fG9sZCUyMGNpdHl8ZW58MHx8MHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=60',
-    duration: 30,
+    duration: 15,
     activities: [
       'Visiting archaeological sites',
       'Walking tour',
@@ -474,7 +474,7 @@ const Trips_data = [
     season: Season.Winter,
     imageUrl:
         'https://images.unsplash.com/photo-1605540436563-5bca919ae766?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MXx8c2tpaW5nfGVufDB8fDB8&ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=60',
-    duration: 30,
+    duration: 10,
     activities: [
       'Visiting archaeological sites',
       'Walking tour',
@@ -502,7 +502,7 @@ const Trips_data = [
     season: Season.Winter,
     imageUrl:
         'https://images.unsplash.com/photo-1601024445121-e5b82f020549?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTJ8fHBhcmFjaHV0ZSUyMGp1bXBpbmd8ZW58MHx8MHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=60',
-    duration: 30,
+    duration: 14,
     activities: [
       'Visiting archaeological sites',
       'Walking tour',
