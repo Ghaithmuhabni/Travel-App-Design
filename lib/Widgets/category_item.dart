@@ -3,14 +3,15 @@ import 'package:flutter/widgets.dart';
 import '../Screens/categories_trip_screen.dart';
 
 class categoryItem extends StatelessWidget {
+  final String id;
   final String title;
   final String imageUrl;
 
-  const categoryItem(this.title, this.imageUrl);
+  categoryItem(this.id,this.title, this.imageUrl);
 
   void selectCategory(BuildContext ctx) {
     Navigator.of(ctx)
-        .push(MaterialPageRoute(builder: (c) => categoriesTripScreen()));
+        .push(MaterialPageRoute(builder: (c) => categoriesTripScreen(id,title)));
   }
 
   @override
