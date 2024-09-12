@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 
 class categoriesTripScreen extends StatelessWidget {
+  static const screenRoute = "/category-trips";
   @override
   Widget build(BuildContext context) {
     final routeArgument =
@@ -12,11 +13,9 @@ class categoriesTripScreen extends StatelessWidget {
         centerTitle: true,
         title: Text(categoryTitle!),
       ),
-      body: Center(
-          child: Text(
-        "This summer's itinerary list",
-        style: TextStyle(fontSize: 24),
-      )),
+      body: ListView.builder(itemBuilder: (ctx,index){
+        return;
+      })
     );
   }
 }

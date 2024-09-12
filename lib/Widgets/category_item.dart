@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_application_1/Screens/categories_trip_screen.dart';
 
 class categoryItem extends StatelessWidget {
   final String id;
@@ -8,8 +9,8 @@ class categoryItem extends StatelessWidget {
   categoryItem(this.id, this.title, this.imageUrl);
 
   void selectCategory(BuildContext ctx) {
-    Navigator.of(ctx)
-        .pushNamed("/category-trips", arguments: {"id": id, "title": title});
+    Navigator.of(ctx).pushNamed(categoriesTripScreen.screenRoute,
+        arguments: {"id": id, "title": title});
   }
 
   @override

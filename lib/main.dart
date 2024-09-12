@@ -13,8 +13,11 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: "Travil App",
-      home: categoriesScreen(),
-      routes: {"/category-trips": (ctx) => categoriesTripScreen()},
+      // home: categoriesScreen(),
+      routes: {
+        "/": (ctx) => categoriesScreen(),
+        categoriesTripScreen.screenRoute: (ctx) => categoriesTripScreen()
+      },
     );
   }
 }
