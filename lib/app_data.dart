@@ -305,7 +305,7 @@ const Trips_data = [
     tripType: TripType.Activities,
     season: Season.Summer,
     imageUrl:
-        'https://images.unsplash.com/photo-1478810810369-07073aa0683f?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MXx8Zm9yZXN0fGVufDB8fDB8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60',
+        'https://images.unsplash.com/photo-1473580044384-7ba9967e16a0?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MXx8ZGVzZXJ0fGVufDB8fDB8&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=60',
     duration: 20,
     activities: [
       'Visiting archaeological sites',

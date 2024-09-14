@@ -15,6 +15,7 @@ class categoriesTripScreen extends StatelessWidget {
     }).toList();
     return Scaffold(
         appBar: AppBar(
+          backgroundColor: Colors.blue,
           centerTitle: true,
           title: Text(categoryTitle!),
         ),
