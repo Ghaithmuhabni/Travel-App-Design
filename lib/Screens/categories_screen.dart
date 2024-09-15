@@ -8,11 +8,6 @@ class categoriesScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      // appBar: AppBar(
-      //   backgroundColor: Colors.blue,
-      //   centerTitle: true,
-      //   title: Text("Traviling App"),
-      // ),
       body: GridView(
         padding: const EdgeInsets.all(10),
         gridDelegate: const SliverGridDelegateWithMaxCrossAxisExtent(
