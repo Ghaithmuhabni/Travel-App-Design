@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_application_1/Widgets/app_drawer.dart';
+import '../Widgets/app_drawer.dart';
 
 class FilterScreen extends StatelessWidget {
   const FilterScreen({super.key});

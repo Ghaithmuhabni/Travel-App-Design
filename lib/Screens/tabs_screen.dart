@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_application_1/Screens/categories_screen.dart';
-import 'package:flutter_application_1/Screens/favoriat_screen.dart';
-import 'package:flutter_application_1/Widgets/app_drawer.dart';
+import '../Screens/categories_screen.dart';
+import '../Screens/favoriat_screen.dart';
+import '../Widgets/app_drawer.dart';
 
 class TabsScreen extends StatefulWidget {
   const TabsScreen({super.key});
