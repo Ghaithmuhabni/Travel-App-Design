@@ -40,10 +40,10 @@ class AppDrawer extends StatelessWidget {
             height: 30,
           ),
           listTile("Trips", Icons.card_travel, () {
-            Navigator.of(context).pushNamed("/");
+            Navigator.of(context).pushReplacementNamed("/");
           }),
           listTile("Filtering", Icons.filter_list, () {
-            Navigator.of(context).pushNamed(FilterScreen.screenRoute);
+            Navigator.of(context).pushReplacementNamed(FilterScreen.screenRoute);
           })
         ],
       ),
