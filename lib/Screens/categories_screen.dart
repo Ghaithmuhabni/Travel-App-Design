@@ -8,11 +8,11 @@ class categoriesScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        backgroundColor: Colors.blue,
-        centerTitle: true,
-        title: Text("Traviling App"),
-      ),
+      // appBar: AppBar(
+      //   backgroundColor: Colors.blue,
+      //   centerTitle: true,
+      //   title: Text("Traviling App"),
+      // ),
       body: GridView(
         padding: const EdgeInsets.all(10),
         gridDelegate: const SliverGridDelegateWithMaxCrossAxisExtent(
@@ -20,9 +20,10 @@ class categoriesScreen extends StatelessWidget {
             childAspectRatio: 7 / 8,
             crossAxisSpacing: 10,
             mainAxisSpacing: 10),
-        children: Categories_data.map((categoryData) => categoryItem(
-                categoryData.id, categoryData.title, categoryData.imageUrl),)
-            .toList(),
+        children: Categories_data.map(
+          (categoryData) => categoryItem(
+              categoryData.id, categoryData.title, categoryData.imageUrl),
+        ).toList(),
       ),
     );
   }
