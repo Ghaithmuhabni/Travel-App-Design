@@ -43,7 +43,7 @@ class _categoriesTripScreenState extends State<categoriesTripScreen> {
         appBar: AppBar(
           backgroundColor: Colors.blue,
           centerTitle: true,
-          title: Text(categoryTitle!),
+          title: Text(categoryTitle),
         ),
         body: ListView.builder(
           itemBuilder: (ctx, index) {
