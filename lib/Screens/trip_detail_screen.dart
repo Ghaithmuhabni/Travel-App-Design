@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_application_1/app_data.dart';
+import '../app_data.dart';
 
 class tripDetailScreen extends StatelessWidget {
   static const screenRoute = '/trip-detail';
@@ -82,6 +82,7 @@ class tripDetailScreen extends StatelessWidget {
                       children: [
                         ListTile(
                           leading: CircleAvatar(
+                            backgroundColor: Colors.blue[300],
                             child: Text(
                               "Day ${index + 1}",
                               style: TextStyle(fontSize: 15),
@@ -102,6 +103,7 @@ class tripDetailScreen extends StatelessWidget {
         ),
       ),
       floatingActionButton: FloatingActionButton(
+        backgroundColor: Colors.blue[300],
         child: Icon(Icons.delete),
         onPressed: () {
           Navigator.of(context).pop(tripId);

@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_application_1/Screens/trip_detail_screen.dart';
+import '../Screens/trip_detail_screen.dart';
 import '../Models/trip.dart';
 
 class TripItem extends StatelessWidget {
