@@ -9,7 +9,7 @@ class TripItem extends StatelessWidget {
   final int duration;
   final TripType tripType;
   final Season season;
-  final Function? removeItem;
+  final Function removeItem;
 
   TripItem({
     required this.id,
@@ -64,9 +64,8 @@ class TripItem extends StatelessWidget {
         .pushNamed(tripDetailScreen.screenRoute, arguments: id)
         .then((result) {
       if (result != null) {
-        removeItem!(result);
+        removeItem(result);
       }
-      ;
     });
   }
 
